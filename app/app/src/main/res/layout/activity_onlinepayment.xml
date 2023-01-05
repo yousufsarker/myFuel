@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onlinepayment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3A1D1D"
+        tools:context=".FueldHome"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-60dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:buttonTint="#FF5722"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.182"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.523" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="#FF5722"
+            android:textColorLink="#FF5722"
+            app:buttonTint="#FF5722"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.182"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.66" />
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#FF5722"
+            app:buttonTint="#FF5722"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.182"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.393" />
+
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="154dp"
+            android:layout_height="70dp"
+            app:flow_horizontalAlign="center"
+            app:flow_verticalAlign="bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.653"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.373"
+            app:srcCompat="@drawable/mastercardlogo" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="131dp"
+            android:layout_height="91dp"
+            android:baselineAlignBottom="true"
+            app:flow_horizontalAlign="center"
+            app:flow_verticalAlign="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52"
+            app:srcCompat="@drawable/visa" />
+
+        <Button
+            android:id="@+id/payonlinepayment"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:background="#3C3F41"
+            android:text="Pay Online"
+            app:backgroundTint="#FF5722"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.929"
+            app:rippleColor="#555555" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="196dp"
+            android:layout_height="117dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="Online"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.229" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="125dp"
+            android:layout_height="83dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Payment"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.195"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="162dp"
+            android:layout_height="131dp"
+            app:flow_horizontalAlign="center"
+            app:flow_verticalAlign="top"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.674"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.706"
+            app:srcCompat="@drawable/paytm" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

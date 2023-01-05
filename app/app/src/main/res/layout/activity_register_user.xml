@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3A1D1D"
+        android:padding="30dp"
+
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="311dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="text|textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="#FF5722"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.715"
+            tools:ignore="Missing Constrains" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="311dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Email ID"
+            android:inputType="text|textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="#FF5722"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.63"
+            tools:ignore="Missing Constrains" />
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="311dp"
+            android:layout_height="40dp"
+
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="#FF5722"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.468" />
+
+        <EditText
+            android:id="@+id/vehicle"
+            android:layout_width="311dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Vehicle Name"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="#FF5722"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.547"
+            tools:ignore="Missing Constrains" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="201dp"
+            android:layout_height="352dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.117"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-thin"
+
+
+            android:gravity="center_horizontal"
+            android:text="myFuel Registration"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.075" />
+
+        <Button
+            android:id="@+id/registerUser"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:background="#3C3F41"
+            android:text="Register User"
+            app:backgroundTint="#FF5722"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.85"
+            app:rippleColor="#555555" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Made by OmanOil
+"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.945" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

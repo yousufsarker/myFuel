@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyFueld</string>
+
+    <string-array name="Litre">
+        <item>5L</item>
+        <item>10L</item>
+        <item>15L</item>
+        <item>20L</item>
+        <item>25L</item>
+        <item>30L</item>
+        <item>35L</item>
+        <item>40L</item>
+        <item>45L</item>
+        <item>50L</item>
+    </string-array>
+
+    <string-array name="Battery">
+        <item>5kWh</item>
+        <item>10kWh</item>
+        <item>15kWh</item>
+        <item>20kWh</item>
+        <item>25kWh</item>
+    </string-array>
+
+
+</resources>

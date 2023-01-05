@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69674769509",
+    "project_id": "myfuelmec",
+    "storage_bucket": "myfuelmec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69674769509:android:1c6f0891d93a0fb4d5ba8c",
+        "android_client_info": {
+          "package_name": "com.example.myfueld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69674769509-qgp9mlml0n3i1893rgsk7ok0qeosbnan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlRvppRx3tomyfE9srNL8D0ck6u4nTPAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69674769509-qgp9mlml0n3i1893rgsk7ok0qeosbnan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
